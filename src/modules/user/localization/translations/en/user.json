@@ -1,0 +1,12 @@
+{
+  "settings": {
+    "yourSettings": "Your Settings",
+    "picture": "URL of profile picture",
+    "name": "Your name",
+    "bio": "Short bio about you",
+    "email": "Email",
+    "newPassword": "New password",
+    "updateSettings": "update settings",
+    "logout": "Or click here to logout"
+  }
+}

@@ -1,0 +1,20 @@
+.button-lng {
+  background: none;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  color: #5cb85c;
+  margin-top: 3px;
+
+  &:checked,
+  &:active,
+  &:focus,
+  &:hover {
+    border: none !important;
+  }
+}

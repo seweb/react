@@ -1,0 +1,24 @@
+{
+  "extends": [
+    "stylelint-config-standard-scss",
+    "stylelint-prettier/recommended"
+  ],
+  "plugins": [
+    "stylelint-prettier"
+  ],
+  "rules": {
+    "scss/dollar-variable-empty-line-before": null,
+    "declaration-empty-line-before": null,
+    "prettier/prettier": true,
+    "declaration-block-single-line-max-declarations": 1,
+    "selector-max-id": 0,
+    "declaration-block-no-duplicate-properties": true,
+    "at-rule-no-vendor-prefix": true,
+    "value-no-vendor-prefix": true,
+    "property-no-vendor-prefix": true,
+    "selector-max-compound-selectors": 3,
+    "function-url-no-scheme-relative": true,
+    "declaration-block-no-redundant-longhand-properties": true,
+    "function-url-quotes": "always"
+  }
+}
